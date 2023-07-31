@@ -1,6 +1,6 @@
 # askanything-slack-bot
 
-askanything is a Slack chatbot trained on Home Depot product pages and can recommend products upon your query. The LLM is built using LangChain using Pinecone vectorized database for indexing. 
+Askanything is a Slack chatbot trained on Home Depot product pages and can recommend products upon your query. The LLM is built using LangChain using Pinecone vectorized database for indexing. 
 
 ## Installation
 Please ensure to create a .env file in the ./src folder with the following API keys:
