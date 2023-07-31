@@ -6,22 +6,22 @@ askanything is a Slack chatbot trained on Home Depot product pages and can recom
 Please ensure to create a .env file in the ./src folder with the following API keys:
 
 ```
-$ SLACK_BOT_TOKEN = '<your key here>'
-$ SLACK_SIGNING_SECRET = '<your key here>'
-$ SLACK_BOT_USER_ID = '<slack bot user id here>'
+SLACK_BOT_TOKEN = '<your key here>'
+SLACK_SIGNING_SECRET = '<your key here>'
+SLACK_BOT_USER_ID = '<slack bot user id here>'
 
-$ OPENAI_APIKEY = '<your key here>'
+OPENAI_APIKEY = '<your key here>'
 
-$ PINECONE_APIKEY = '<your key here>'
-$ PINECONE_ENVIRONMENT = '<pinecone environment here>'
+PINECONE_APIKEY = '<your key here>'
+PINECONE_ENVIRONMENT = '<pinecone environment here>'
 ```
 
 The Slack bot will require the following scopes:
 
 ```
-$ app_mentions:read
-$ channels:history
-$ chat:write
+app_mentions:read
+channels:history
+chat:write
 ```
 
 To start a server from your local computer, run 
@@ -47,5 +47,5 @@ $ python3 slack_bot.py
 
 To communicate with askanything, send a mention followed by your message.
 ```
-$ @askanything <your message>
+@askanything <your message>
 ```
